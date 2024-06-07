@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgba(1, 194, 247, 0.5);
+}
+
+header h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
+header, footer{
+    background-color: rgb(9, 9, 118);
+    color: rgb(1, 194, 247);
+}
+
+header{
+    padding: 5% 0;
+    margin-bottom: 36px;
+}
+
+main{
+    max-width: 60%;
+    width: 100%;
+    margin: auto;    
+}
+
+form{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+
+}
+
+form button{
+    padding: 8px 36px;
+    background-color: rgb(9, 9, 118);
+    color: rgb(1, 194, 247);
+    border-radius: 5px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+form input{
+    padding: 8px 8px;
+    width: 80%;
+    color: rgb(9, 9, 118);
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#area-tarefas{
+    max-width: 90%;
+    background-color: rgb(1, 194, 247);
+    border-radius: 10px;
+    margin: 10% auto;
+    padding: 24px;
+}
+
+ol li{
+    color: rgb(9, 9, 118);
+    font-weight: bolder;
+    margin-left: 20px;
+    padding: 8px 0;
+
+}
+
+li:hover{
+    cursor: pointer;
+}
+
+h2, p{
+    color: rgb(9, 9, 118);
+    text-align: center;
+    padding-bottom: 8px ;
+}
+
+footer{
+    padding: 14px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p{
+    color: rgb(1, 194, 247);
+}
+
+.tarefa-concluida{
+    text-decoration: line-through;
+}
+
+
